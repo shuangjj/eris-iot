@@ -16,45 +16,48 @@ the gaps, this projects will do:
 - Provide better machine experience for blockchain.
 
 
-## Introduce eris-iot
+## Introducing eris-iot
 The eris smart contract application platform provides a really pleasant way to 
 integrate blockchain to your project. The code base is modularized and easy to 
-use. Following the modularized structure of the code base, the eris-iot complement 
+use. Following the modularized structure of the code base, the eris-iot tries to complement 
 the eris platform for IoT support. The eris-iot should support the IoT devices in 
 the following processes:
 - Register resource (meta data such as name, type, link, etc.) on blockchain.
 - Lookup resource from blockchain. For example, to find the links of nodes that have 
   humidity sensor in the New York area.
-- Update resource record on blockchain (in the compliance with the permission model).
+- Update resource record on blockchain (in compliance with the permission model).
 - Remove a resource (in compliance with the permission model).
 - Mange the permissions for resource directory operations.
-- Support payment management for access resources.
+- Support payment management for accessing resources and services on IoT devices.
 
 
 ## Expected deliveries of this project
 To the developer, the best output from the project would be:
 - A working API set including all the resource management and permission management 
-   features discussed above  of in javascript or other languages. 
+   features discussed above in javascript or other languages. 
+- Development API guide.
 
 To the end user or service providers, the best output from the project would be:
-- Configure file interface (XML, or other mark up format file) to add their devices to the 
+- Installation instructions.
+- Configure file interface (XML, or other mark up format files) to add their devices to the 
   blockchain.
-- Browser client program to add new node to blockchain using the eris-iot API.
+- Browser interface to add new node to blockchain.
 
 And if possible, we can propose a blockchain-iot standard to IETF or other standard organisation. 
 
 ## What I have finished
 
-I have been playing with eris packages for almost a month and have successfully 
+I have been playing with eris platform for almost a month and have successfully 
 ported eris chain management tools to BeagleBone Black and Raspberry Pi 3 evaluation 
 boards. And I have tested the following features:
-0. Key creation, export and covert.
+
+0. Key creation, export and convert.
 0. Chain make, new, stop...
 0. Setup eris environment on Raspberry Pi using docker machine.
 
 For the smart contract, I wrote a simple device registration and retrieval contract 
 and deployed the contract on blockchain running across four nodes (BeagleBone and 
-Raspberry PI). And I also wrote javascript application with the following functions:
+Raspberry PI). And I also wrote a javascript application which implements the following functions:
 - Register devices to blockchain
 - Unregister devices to blockchain
 - Retrieve all devices information from blockchain
@@ -65,8 +68,8 @@ From a Linux background, I love the modularized architecture of eris stacks and
 the way you (marmot) put all the things together. Both blockchain and IoT are 
 revolutions and putting them together has unimaginable power. Joining the marmot 
 team, I want to use my IoT experience to power up the marmot in the machine world.
-And what I want to get from the marmot are:
-+ Learn from smart contract expert.
+And what I want to get from this internship are:
++ Learn from smart contract experts.
 + Deep understanding of blockchain system.
 + Experience on industry level blockchain applications.
 
